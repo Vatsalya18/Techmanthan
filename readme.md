@@ -9,7 +9,7 @@ Career & Skills Advisor helps users discover career paths, identify skill gaps a
 
 ## 🚀 Demo
 - Live: https://career-advisor-fixed-updated.vercel.app/
-- Demo screenshots: 
+- Demo screenshots:  https://docs.google.com/document/d/15FTSYWE5FsouNu7R2_47PduleBUgXZ1S7AGqtWgJyZ8/edit?usp=sharing
 
 ## 📂 Features
 - Conversational Gemini chatbot for personalised guidance
@@ -48,19 +48,20 @@ Career & Skills Advisor helps users discover career paths, identify skill gaps a
 ## Environment Variables (.env.example)
 
 # Supabase
-   NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
-   SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmb2ZoZ25pZGhmYW9lY3dxdWFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgyODczMjcsImV4cCI6MjA3Mzg2MzMyN30.L8EImRrnxEBx9F8yhzIfq45Jet5YhXDeGyPmgccK25s
 
 # Google / Gemini AI
    GOOGLE_AI_API_KEY= AIzaSyAt_KkBWSW_kkNuqoGrjBzkra0LZyN2OxI 
 
-# Auth
-   NEXTAUTH_URL=http://localhost:3000
-   NEXTAUTH_SECRET=your-secret-key
+# Google OAuth
+GOOGLE_CLIENT_ID=616761921672-tsepuk6jkocf792urkoh2paso5i9ne89.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your-google-client-secret-here
+GOOGLE_AUTH_URI=https://accounts.google.com/o/oauth2/auth
+GOOGLE_TOKEN_URI=https://oauth2.googleapis.com/token
 
-# Database
-   DATABASE_URL=postgres://user:password@host:5432/dbname
+# Google Service Account
+GOOGLE_PROJECT_ID=intrepid-alloy-472414-q8
+GOOGLE_CLIENT_EMAIL=careerpathai@intrepid-alloy-472414-q8.iam.gserviceaccount.com
 
 
 ## How to Run Tests / Build / Deploy
@@ -91,10 +92,6 @@ Career & Skills Advisor helps users discover career paths, identify skill gaps a
 - /docs            # slides and screenshots
 
 
-## Team/Contributers
-- 
-
 ## 📜 License
 This project is licensed under the MIT License.
 
-## Contact
