@@ -18,11 +18,12 @@ Career & Skills Advisor helps users discover career paths, identify skill gaps a
 - Interactive frontend built with Next.js
 - Modern UI components
 - Easy deployment and scalability
+- Resume feature for professional resume and portfolio building
 
 ## 🛠 Tech Stack
-- Frontend: Next.js, React, Tailwind CSS
+- Frontend: Next.js, React, Typescript, Tailwind CSS
 - Backend: Node.js / Express
-- DB: MongoDB / Firebase
+- DB: MongoDB / Firebase, Supabase
 - Deployment: Vercel 
 
 
@@ -48,7 +49,7 @@ Career & Skills Advisor helps users discover career paths, identify skill gaps a
 ## Environment Variables (.env.example)
 
 # Supabase
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmb2ZoZ25pZGhmYW9lY3dxdWFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgyODczMjcsImV4cCI6MjA3Mzg2MzMyN30.L8EImRrnxEBx9F8yhzIfq45Jet5YhXDeGyPmgccK25s
+   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmb2ZoZ25pZGhmYW9lY3dxdWFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgyODczMjcsImV4cCI6MjA3Mzg2MzMyN30.L8EImRrnxEBx9F8yhzIfq45Jet5YhXDeGyPmgccK25s
 
 # Google / Gemini AI
    GOOGLE_AI_API_KEY= AIzaSyAt_KkBWSW_kkNuqoGrjBzkra0LZyN2OxI 
@@ -93,5 +94,5 @@ GOOGLE_CLIENT_EMAIL=careerpathai@intrepid-alloy-472414-q8.iam.gserviceaccount.co
 
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT.
 
